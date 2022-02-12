@@ -2,6 +2,7 @@ def swap(a, index, i):
     temp = a[i]
     a[i] = a[index]
     a[index] = temp
+    
 def selectionSort(arr):
     for i in range(len(arr)-1):
         min_index = i
